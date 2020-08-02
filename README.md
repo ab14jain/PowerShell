@@ -3566,10 +3566,10 @@ Public
 #### 14.1 ShowUI
 ```
 PS C:\> $User = [ordered]@{
-   FirstName = "John"
-   LastName = "Doe"
+   FirstName = "jain"
+   LastName = "abhishek"
    BirthDate = [DateTime]
-   UserName = "JDoe"
+   UserName = "jainabhishek"
 }
 
 $data = Get-Input $User -Show
